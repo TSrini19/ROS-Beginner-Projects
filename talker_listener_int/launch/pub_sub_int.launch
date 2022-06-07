@@ -1,0 +1,10 @@
+<launch> 
+  <node name="$(anon listener_int_py)" pkg="talker_listener_int" type="listener_int.py" output="screen"/>
+  
+  <node name="$(anon talker_int_py)" pkg="talker_listener_int" type="talker_int.py" output="screen"/>
+  
+  <node name="$(anon talker_int_cpp)" pkg="talker_listener_int" type="talker_cpp" output="screen"/>
+  
+  <node name="$(anon listener_int_cpp)" pkg="talker_listener_int" type="listener_cpp" output="screen"/>
+    
+</launch>
