@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="$(anon talker)" pkg="talker_listener" type="talker" output="screen"/>
+
+  <node name="$(anon listener)" pkg="talker_listener" type="listener" output="screen"/>
+  
+  <node name="$(anon listener_py)" pkg="talker_listener" type="listener.py" output="screen"/>
+  
+  <node name="$(anon talker_py)" pkg="talker_listener" type="talker.py" output="screen"/>
+    
+</launch>
