@@ -4,10 +4,10 @@
   <version>0.0.0</version>
   <description>The talker_listener_geometry package</description>
 
-  <maintainer email="taarun-srini@todo.todo">taarun-srini</maintainer>
+  <maintainer email="tsrini.roboticist@gmail.com">taarun-srinivas</maintainer>
 
 
-  <license>TODO</license>
+  <license></license>
 
 
   <buildtool_depend>catkin</buildtool_depend>
