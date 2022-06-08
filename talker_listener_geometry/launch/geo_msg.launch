@@ -1,0 +1,6 @@
+<launch> 
+  <node name="$(anon listener_pose)" pkg="talker_listener_geometry" type="listener_geo.py" output="screen"/>
+  
+  <node name="$(anon talker_pose)" pkg="talker_listener_geometry" type="talker_geo.py" output="screen"/>
+    
+</launch>
