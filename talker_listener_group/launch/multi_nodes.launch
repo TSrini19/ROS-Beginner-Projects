@@ -1,0 +1,14 @@
+<launch>
+
+  <node name="$(anon listener_A)" pkg="talker_listener_group" type="listener_A.py" output="screen"/>
+  
+  <node name="$(anon talker_A)" pkg="talker_listener_group" type="talker_A.py" output="screen"/>
+
+  <node name="$(anon listener_B)" pkg="talker_listener_group" type="listener_B.py" output="screen"/>
+  
+  <node name="$(anon talker_B)" pkg="talker_listener_group" type="talker_B.py" output="screen"/>
+
+  <node name="$(anon listener_C)" pkg="talker_listener_group" type="listener_C" output="screen"/>
+    
+
+</launch>
